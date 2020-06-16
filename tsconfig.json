@@ -14,10 +14,18 @@
     "lib": [
       "es2018",
       "dom"
+    ],
+    "typeRoots": [
+      "node_modules/@types"
     ]
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
     "strictInjectionParameters": true
+  },
+  "paths": {
+    "@app/*": ["src/app/*"],
+    "@env/*": ["src/environments/*"],
+    "@config/*": ["src/config/*"]
   }
 }

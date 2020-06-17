@@ -1,0 +1,59 @@
+@font-face {
+	font-family: 'helvetica_neue_thin';
+	src: url('./assets/fonts/HelveticaNeueThin.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'helvetica_neue_light';
+	src: url('./assets/fonts/HelveticaNeueLight.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'helvetica_neue_medium';
+	src: url('./assets/fonts/HelveticaNeueMedium.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+/**
+ * Set the Montserrat light.
+ *
+ * @mixin
+ * @section Fonts
+ * @example
+ *  @include helvetica_neue_thin;
+ */
+@mixin helvetica_neue_thin {
+  font-family: 'helvetica_neue_thin';
+}
+
+/**
+ * Set the Montserrat regular.
+ *
+ * @mixin
+ * @section Fonts
+ * @example
+ *  @include helvetica_neue_light;
+ */
+@mixin helvetica_neue_light {
+  font-family: 'helvetica_neue_light';
+}
+
+/**
+ * Set the Montserrat semi bold.
+ *
+ * @mixin
+ * @section Fonts
+ * @example
+ *  @include helvetica_neue_medium;
+ */
+@mixin helvetica_neue_medium {
+  font-family: 'helvetica_neue_medium';
+}

@@ -1,0 +1,44 @@
+/**
+ * @atom Paragraphs
+ * @section Texts
+ * @markup
+ *  <div style="background: white; padding: 10px; width: fit-content; border-radius: 4px;">
+ *      <p>Lorem fistrum me cago en tus muelas pecador no te digo trigo por no llamarte Rodrigor ahorarr a peich pecador va usté muy cargadoo a gramenawer jarl te va a hasé pupitaa.</p>
+ *  </div>
+ */
+p, span {
+    margin: 0 0 10px;
+    font-size: 16px;
+    @include helvetica_neue_medium;
+    line-height: 24px;
+    color: $color--neutral--body;
+}
+
+/**
+ * @atom Headings
+ * @section Texts
+ * @markup
+ *  <div style="background: white; padding: 10px; width: fit-content; border-radius: 4px;">
+ *      <h1>h1. Heading</h1>
+ *      <h2>h2. Heading</h2>
+ *      <h3>h3. Heading</h3>
+ *  </div>
+ */
+h1, h2, h3, h4, h5, h6 {
+    color: $color--brand--primary;
+    @include helvetica_neue_thin;
+    font-weight: normal;
+    margin: 0 0 10px;
+}
+h1 {
+    font-size: 32px;
+    line-height: 36px;
+}
+h2 {
+    font-size: 29px;
+    line-height: 33px;
+}
+h3 {
+    font-size: 26px;
+    line-height: 29px;
+}

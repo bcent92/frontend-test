@@ -1,0 +1,13 @@
+{
+    "title": "Styleguide",
+    "files": [
+        "src/assets/styles/**/*.scss"
+    ],
+    "target": "styleguide",
+    "css": "../dist/frontend-test/styles.{replace}.css",
+    "namespace": null,
+    "verbose": 3,
+    "counterCSS": null,
+    "staticLipsum": false,
+    "placeholderService": false
+}

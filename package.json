@@ -10,7 +10,8 @@
     "e2e": "ng e2e",
     "postinstall": "ng build --prod",
     "serve": "concurrently \"docker-compose up\" \"ng serve\"",
-    "release": "standard-version --release-as"
+    "release": "standard-version --release-as",
+    "styleguide": "nucleus"
   },
   "private": true,
   "dependencies": {
@@ -22,6 +23,7 @@
     "@angular/platform-browser": "~9.1.11",
     "@angular/platform-browser-dynamic": "~9.1.11",
     "@angular/router": "~9.1.11",
+    "bootstrap": "^4.5.0",
     "compression": "^1.7.4",
     "express": "^4.17.1",
     "rxjs": "~6.5.4",
@@ -48,6 +50,7 @@
     "karma-coverage-istanbul-reporter": "~2.1.0",
     "karma-jasmine": "~3.0.1",
     "karma-jasmine-html-reporter": "^1.4.2",
+    "nucleus-styleguide": "^1.1.1",
     "protractor": "~7.0.0",
     "standard-version": "^8.0.0",
     "ts-node": "~8.3.0",

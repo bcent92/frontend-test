@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/bcent92/frontend-test/compare/v0.0.2...v0.0.3) (2020-06-17)
+
+
+### Features
+
+* 🎸 Add CSS styles with Atomic Design methodology ([0e2fa57](https://github.com/bcent92/frontend-test/commit/0e2fa578db725c1b854b82000da80b1ec2fa871d))
+
+
+### Bug Fixes
+
+* 🐛 Fix deployment ([75707d6](https://github.com/bcent92/frontend-test/commit/75707d689e90c4c4532761300965b6d6ac66b816))
+
 ### [0.0.2](https://github.com/bcent92/frontend-test/compare/v0.0.1...v0.0.2) (2020-06-16)
 
 

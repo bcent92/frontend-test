@@ -1,0 +1,16 @@
+@import "~src/styles.scss";
+
+header {
+    height: 90px;
+    background-color: $color--brand--primary;
+    color: $color--neutral--white;
+    transition: .2s ease;
+    -webkit-transition: .2s ease;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    .d-flex {
+        height: -webkit-fill-available;
+    }
+}

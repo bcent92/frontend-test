@@ -17,6 +17,8 @@ p, span {
 /**
  * @atom Headings
  * @section Texts
+ * @modifiers
+ *  .light light text
  * @markup
  *  <div style="background: white; padding: 10px; width: fit-content; border-radius: 4px;">
  *      <h1>h1. Heading</h1>
@@ -24,11 +26,14 @@ p, span {
  *      <h3>h3. Heading</h3>
  *  </div>
  */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
     color: $color--brand--primary;
     @include helvetica_neue_thin;
     font-weight: normal;
     margin: 0 0 10px;
+    &.light {
+        color: $color--neutral--white;
+    }
 }
 h1 {
     font-size: 32px;

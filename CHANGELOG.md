@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/bcent92/frontend-test/compare/v0.0.3...v0.0.4) (2020-06-19)
+
+
+### Features
+
+* 🎸 Add list view ([b8a544f](https://github.com/bcent92/frontend-test/commit/b8a544f2b93352f613700f9795a8b7119d93ace5))
+* 🎸 Add structure of website ([11e1102](https://github.com/bcent92/frontend-test/commit/11e1102b462402d9a03a92e2db0aa623d8761d70))
+
 ### [0.0.3](https://github.com/bcent92/frontend-test/compare/v0.0.2...v0.0.3) (2020-06-17)
 
 

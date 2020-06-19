@@ -1,27 +1,22 @@
+![Heroku](https://heroku-badge.herokuapp.com/?app=heroku-badge)
+
 # FrontendTest
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.8.
+The project uses some tools for development like:
+- [Husky](https://github.com/typicode/husky#readme) to create hooks for commits.
+- [Standard-version](https://github.com/conventional-changelog/standard-version#readme) to create tags and an automatized CHANGELOG with the commits.
+- [Commitlint](https://github.com/conventional-changelog/commitlint#readme) to pass a lint for commits messages.
+- [Git-precommit-check](https://mbrehin.github.io/git-precommit-checks/) to create rules for lint.
+- Commits done with [git-cz](https://github.com/streamich/git-cz) to help to create good commit messages.
+
+I use 'Atomic Design' as CSS and styles structure. Furthermore I use [nucleus](https://github.com/holidaypirates/nucleus) to create a styleguide (it needs change 'styles.{replace}.css' by 'styles' output file of a build before execute nucleus).
+
+This project is available on Heroku https://frontend-wefox.herokuapp.com. 'Crear' and 'Ver' buttons are not working. Project not finished.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+To serve the app you must run `npm run serve` and It will run Docker and Angular at same time.
 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

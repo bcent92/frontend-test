@@ -4,18 +4,25 @@ import { Routes, RouterModule } from '@angular/router';
 import { ListComponent } from './pages/list/list.component';
 import { ShowComponent } from './pages/show/show.component';
 import { CreateComponent } from './pages/create/create.component';
+import { PostResolver } from './post.resolver';
 
 export const routes: Routes = [
 	{
 		path: '',
-		component: ListComponent
+		component: ListComponent,
+		resolve: {
+			posts: PostResolver
+		}
 	},
 	{
 		path: '/show/:id',
-		component: ShowComponent
+		component: ShowComponent,
+		resolve: {
+			posts: PostResolver
+		}
 	},
 	{
-		path: '/create/:id',
+		path: '/create',
 		component: CreateComponent
 	}
 ];
@@ -24,6 +31,7 @@ export const routes: Routes = [
 	imports: [RouterModule.forChild(routes)],
 	exports: [RouterModule],
 	providers: [
+		PostResolver
 	]
 })
 export class HomeRoutingModule { }

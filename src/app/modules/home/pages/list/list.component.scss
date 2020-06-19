@@ -1,0 +1,15 @@
+@import "~src/styles.scss";
+
+section {
+    padding-top: 150px;
+    padding-bottom: 80px;
+    tr {
+        transition: .2s ease;
+        &:hover {
+            background-color: $color--brand--light-secondary;
+        }
+    }
+    img {
+        width: 100px;
+    }
+}

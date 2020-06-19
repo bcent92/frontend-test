@@ -1,1 +1,46 @@
-<p>list works!</p>
+<section>
+	<div class="container">
+		<div class="d-flex">
+			<table class="table">
+				<thead>
+					<tr>
+						<th>Id</th>
+						<th>Title</th>
+						<th>Content</th>
+						<th>Image</th>
+						<th>Created at</th>
+						<th>Updated at</th>
+						<th>Actions</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr *ngFor="let post of posts">
+						<td>{{ post.id }}</td>
+						<td>{{ post.title }}</td>
+						<td>{{ post.content }}</td>
+						<td>
+							<img [src]="post.imageUrl">
+						</td>
+						<td>{{ post.createdAt | date: 'mediumDate' }}</td>
+						<td>{{ post.updatedAt | date: 'mediumDate' }}</td>
+						<td>
+							<a class="btn btn-secondary" target="_blank" href="https://www.google.es/maps/@{{ post.lat }},{{ post.long }},15z">
+								Localizar
+							</a>
+							<button class="btn btn-secondary">
+								Ver
+							</button>
+							<button class="btn btn-primary" (click)="removePost(post.id)">
+								Eliminar
+							</button>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+		</div>
+		<button class="btn btn-secondary">
+			Crear
+		</button>
+	</div>
+</section>
